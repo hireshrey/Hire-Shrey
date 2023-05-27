@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'danh_dabold';
+    src: url('danhda-bold-webfont.woff2') format('woff2'),
+        url('danhda-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
+@font-face {
+    font-family: 'manrope_extralightregular';
+    src: url('manrope-variablefont_wght-webfont.woff2') format('woff2'),
+         url('manrope-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.container:hover{
+    transform: scale(1.2);
+}
+
+html * {
+    /* font-size: 1em ; */
+
+    font-family: 'manrope_extralightregular';   
+}
+/* Style the navigation menu */
+body {
+    margin: 0;
+    background-color: #181818;
+    /* font-family: 'danh_dabold'; */
+}
+#center {
+    /*for nav bar*/
+    margin: 0%;
+    width: 99%;
+    max-width: 90%;
+    border: 1px solid #D5FE5C;
+    border-radius: 20px;
+    padding: 2rem;
+    color: #D5FE5C;
+}
+.main {
+    display: flex;
+    height: 100vh;
+    margin: 0%;
+}
+.col1 {
+    border: solid;
+    border-color: #181818;
+    text-align: center;
+    height: 100%;
+    width: 25%;
+    margin: 0%;
+}
+.photo1 {
+    border: solid;
+    border-color: #181818;
+    text-align: center;
+    height: 33%;
+    width: 100%;
+    margin: 0%;
+}
+.image1 {
+    transition: all .1s ease-in-out;
+    max-width: 96%;
+    height: 95%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-radius: 30px;
+    padding-bottom: 3%;
+    overflow: hidden;
+}
+.card_exporience {
+    
+    height: 95%;
+    overflow: fill;
+    margin-left: 8%;
+    margin-top: 4%;
+    border: solid;
+    border-color: white;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    padding-bottom: -30%;
+    transition: all .1s ease-in-out;
+    background-color: #181818;
+    color: white;
+}
+h1{
+    font-family: danh_dabold;
+}
+.project1 {
+    max-width: 90%;
+    height: 95%;
+    overflow: hidden;
+    margin-left: 8%;
+    margin-top: 4%;
+    border: solid;
+    border-color: #181818;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    padding-bottom: -30%;
+    transition: all .1s ease-in-out;
+    background-color: #212121;   
+    color: white;
+}
+
+.logo1 {
+    max-width: 90%;
+    height: 90%;
+    margin-left: 8%;
+    margin-top: 4%;
+    border: solid;
+    border-color: #181818;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    padding-bottom: 0;
+    transition: all .1s ease-in-out;
+    background-color: #B35CFF;
+}
+.intro1 {
+    max-width: 90%;
+    height: 90%;
+    overflow: hidden;
+    margin-left: 8%;
+    margin-top: 4%;
+    border: solid;
+    border-color: #181818;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    padding-bottom: 0;
+    transition: all .1s ease-in-out;
+    color: white;
+    background-color: #212121;
+}
+.time {
+    max-width: 100%;
+    height: 88%;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-top: 2%;
+    border: solid;
+    border-color: white;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    padding-bottom: 0;
+    transition: all .1s ease-in-out;
+    background-color: white;
+}
+.art1 {
+    transition: all .1s ease-in-out;
+    max-width: 100%;
+    height: 95%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.contact1 {
+    transition: all .1s ease-in-out;
+    max-width: 95%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+    border-radius: 30px;
+    border: solid;
+    overflow: hidden;
+    background-color: white;
+}
+.gmail{
+    height: 100px;
+}
+.slang1 {
+    transition: all .1s ease-in-out;
+    max-width: 90%;
+    height: 80%;
+    margin-left: 7%;
+    margin-top: 3%;
+    margin-right: 7%;
+    margin-bottom: 8%;
+    border-radius: 30px;
+    color: white;
+    overflow: hidden;
+    background-color: #1f1d1d;
+}
+.image1_1 {
+    transition: all .1s ease-in-out;
+    max-width: 96%;
+    height: 100%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-radius: 30px;
+    padding-bottom: 3%;
+    overflow: hidden;
+}
+.image1:hover,.logo1:hover,.project1:hover ,.time:hover,.image1_1:hover,.card_exporience:hover,.intro1:hover,.contact1:hover,.slang1:hover{
+    transform: scale(1.02);
+}
+.art1:hover {
+    transform: rotate(-5deg);
+} 
+.resume {
+    border: solid;
+    border-color: #181818;
+    text-align: center;
+    height: 66%;
+    width: 100%;
+    margin: 0%;
+}
+.col2 {
+    border: solid;
+    border-color: #181818;
+    text-align: center;
+    height: 100%;
+    width: 25%;
+    margin: 0;
+}
+.logo {
+    border: solid;
+    border-color: #181818;
+    text-align: center;
+    height: 33%;
+    width: 100%;
+    margin: 0%;
+}
+.intro {
+    border: solid;
+    border-color: #181818;
+    text-align: center;
+    height: 33%;
+    width: 100%;
+    margin: 0%;
+}
+.logo {
+    border: solid;
+    border-color: #181818;
+    text-align: center;
+    height: 33%;
+    width: 100%;
+    margin: 0%;
+}
+.art {
+    border: solid;
+    border-color: #181818;
+    text-align: center;
+    height: 16%;
+    width: 100%;
+    margin: 0%;
+}
+.contact {
+    border: solid;
+    border-color: #181818;
+    text-align: center;
+    height: 16%;
+    width: 100%;
+    margin: 0%;
+}
+.col3 {
+    border: solid;
+    border-color: #181818;
+    width: 50%;
+    background: white;
+    text-align: center;
+    height: 100%;
+    margin: 0%;
+    background-color: #181818;
+}
+.col3_1 {
+    border: solid;
+    border-color: #181818;
+    width: 100%;
+    height: 66%;
+    display: flex;
+    margin: 0%;
+}
+.pro {
+    border: solid;
+    width: 100%;
+    height: 100%;
+    border-color: #181818;
+    margin: 0%;
+}
+.project {
+    border: solid;
+    width: 100%;
+    height: 100%;
+    border-color: #181818;
+    margin: 0%;
+}
+.slang {
+    float: right;
+    width: 100%;
+    height: 25%;
+    margin: 0%;
+    color:white;
+}
+.photo2 {
+    border: solid;
+    float: right;
+    width: 100%;
+    height: 74%;
+    border-color: #181818;
+    margin: 0%;
+}
+.last {
+    border: solid;
+    border-color: #181818;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+.col3_2 {
+    border: solid;
+    width: 100%;
+    height: 33%;
+    border-color: #181818;
+    margin: 0%;
+}
+#digital-clock {
+    
+    width: 35%;
+    height:40%;
+    margin-left:65%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:danh_dabold; 
+    font-size: 5em; 
+    color : black;
+    
+    
+   }

@@ -1,0 +1,27 @@
+
+html * {
+    font-size: 1em !important;
+    color: #000;
+    font-family: Arial !important;
+}
+
+
+body {
+    background: #ffffff;
+    margin: 0;
+  }
+button {
+    font: inherit;
+    background: #4064c6;
+    border: 1px solid #808080;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+  button:hover,
+button:active {
+  background: #3553a5;
+  border-color: #3553a5;
+}
